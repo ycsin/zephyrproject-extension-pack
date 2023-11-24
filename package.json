@@ -1,0 +1,41 @@
+{
+  "name": "zephyrproject-extension-pack",
+  "displayName": "ZephyrProject Extension Pack",
+  "description": "Extensions for ZephyrProject development in Visual Studio Code",
+  "icon": "assets/logo_128.png",
+  "version": "1.0.0",
+  "author": {
+    "name": "Sin Yong Cong",
+    "url": "https://ycsin.eu.org/"
+  },
+  "publisher": "ycsin",
+  "license": "apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ycsin/zephyrproject-extension-pack.git"
+  },
+  "engines": {
+    "vscode": "^1.84.0"
+  },
+  "categories": [
+    "Extension Packs"
+  ],
+  "extensionPack": [
+    "eamodio.gitlens",
+    "EditorConfig.EditorConfig",
+    "idanp.checkpatch",
+    "iliazeus.vscode-ansi",
+    "josetr.cmake-language-support-vscode",
+    "ms-python.python",
+    "ms-python.vscode-pylance",
+    "ms-vscode.cpptools",
+    "ms-vscode.hexeditor",
+    "ms-vscode.vscode-serial-monitor",
+    "nordic-semiconductor.nrf-kconfig",
+    "shd101wyy.markdown-preview-enhanced",
+    "trond-snekvik.devicetree",
+    "trond-snekvik.simple-rst",
+    "vadimcn.vscode-lldb",
+    "yzhang.markdown-all-in-one"
+  ]
+}
