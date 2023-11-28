@@ -87,6 +87,24 @@ This extension supercedes the original [Kconfig for the Zephyr Project](https://
 1. Configure `devicetree.west` in the Settings to the path of `west`, you can do `which west` in Linux to find out the path, i.e.: `"~/zephyrproject/.venv/bin/west`
 2. Configure the `devicetree.zephyr` in the Settings to the path of `zephyr`, i.e.: `"~/zephyrproject/zephyr"`
 
+## Additional tips
+
+1. Check the format of last commit by doing `gitlint` before submitting:
+
+```
+(.venv) ycsin@LAPTOP-ROG:~/zephyrproject/zephyr$ gitlint
+1: UC2 Commit message does not contain a 'Signed-off-by:' line
+1: UC3 Commit title does not follow [subsystem]: [subject] (and should not start with literal subsys:): "stash"
+1: UC6 Commit message body is empty, should at least have 1 line(s).
+3: B6 Body message is missing
+```
+
+2. Format the whole file by doing <kbd>SHIFT</kbd> + <kbd>ALT</kbd> + <kbd>TAB</kbd>, format the highlighted line(s) by doing <kbd>CTRL</kbd> + <kbd>K</kbd>, <kbd>CTRL</kbd> + <kbd>F</kbd>
+
+3. Run checkpatch if it doesn't already by <kbd>CTRL</kbd> + <kbd>SHIFT</kbd> + <kbd>P</kbd>, and type `Checkpatch Selected File`.
+
+4. Preview markdown file by <kbd>CTRL</kbd> + <kbd>K</kbd>, <kbd>V</kbd>.
+
 
 ## Credits
 - [Logo created by Freepik - Flaticon](https://www.flaticon.com/free-icons/kite)
